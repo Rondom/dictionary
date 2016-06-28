@@ -1,0 +1,129 @@
+call			anrop			Aufruf
+coroutine		korutin
+crash			krasch			Absturz
+environment		miljö; omgivning
+execution		exekvering		Ausführung
+expression		uttryck
+function		funktion
+instruction		instruktion		Befehl
+list comprehension	listomfattning
+procedure		procedur
+statement		sats
+subroutine		subrutin
+file system		filsystem
+breakpoint		brytpunkt		Haltepunkt
+floating point number	flyttal			Gleitkommazahl
+integer	       		heltal
+ring			ring
+state			tillstånd
+polymorphism		polymorfism
+pointer			pekare
+reference		referens
+method			metod
+system call		systemanrop
+deadlock		baklås
+latency			latens
+spinlock		spinnlås
+template		mall
+class			klass
+type			typ
+set			mängd
+subset			delmängd
+union			union
+intersection		snitt
+category		kategori
+invariant		invariant
+predicate		predikat
+relation		relation
+table			tabell
+constraint		bivillkor
+condition		villkor
+loop			slinga
+sequence		följd
+character		tecken
+string			sträng
+device			enhet
+window			fönster
+edit			redigera
+compile			kompilera
+compiler		kompilator
+assemble		assemblera
+assembler		assemblator
+assembler		assembler
+link			länka
+linker			länkare
+closure			omslutning
+symbol table		symboltabell
+argument		argument
+parameter		parameter
+type class		typklass
+abstraction		abstraktion
+conjunction		konkunktion
+disjunction		disjunktion
+negation		negation
+complement		komplement
+negate			negera
+invert			invertera
+implication		implikation
+tree			träd
+forest			skog
+link			länk
+i-node			i-nod
+bandwidth		bandbredd
+real-time		realtid
+virtual			virtuell
+segment			segment
+interrupt		avbrott
+exception		undantag
+handler			hanterare
+handle			handtag
+stack			stack
+garbage			skräp
+allocation		allokering
+record			post
+structure		struktur
+attribute		attribut
+synthesis		syntes
+icon			ikon
+monad			monad
+functor			funktor
+repeat			upprepa
+recursion		rekursion
+recursive		rekursiv
+jump			hopp
+branch			gren
+address			adress
+target			mål
+control	(n)		styrning
+control	(v)		styra
+check (n)		kontroll
+check (v)		kontrollera
+proof 			bevis
+induction		induktion
+deduction		deduktion
+interval		intervall
+event			händelse
+discrete		diskret
+simulation		simulering
+simulate		simulera
+functional		funktionell
+sound			sund
+thread			tråd
+process			process
+multi-threaded		flertrådad
+continuation		fortsättning
+evaluation		evaluering
+refactor		omfaktorera
+bug			lus
+storage			lagring
+bus			buss
+kernel			kärna
+library			bibliotek
+file			fil
+directory		katalog
+database		databas
+lazy			lat
+eager			ivrig
+static			statisk
+dynamic			dynamisk
+lexical			lexikalisk
