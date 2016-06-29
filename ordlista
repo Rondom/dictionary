@@ -1,129 +1,138 @@
 call			anrop			Aufruf
-coroutine		korutin
+coroutine		korutin			Koroutine
 crash			krasch			Absturz
-environment		miljö; omgivning
+environment		miljö; omgivning	Umgebung
 execution		exekvering		Ausführung
-expression		uttryck
-function		funktion
+expression		uttryck			Ausdruck
+function		funktion		Funktion
 instruction		instruktion		Befehl
 list comprehension	listomfattning
-procedure		procedur
-statement		sats
-subroutine		subrutin
-file system		filsystem
+procedure		procedur		Prozedur
+statement		sats			Anweisung
+subroutine		subrutin		Subroutine / Unterprogramm
+file system		filsystem		Dateisystem
+file			fil			Datei
 breakpoint		brytpunkt		Haltepunkt
 floating point number	flyttal			Gleitkommazahl
-integer	       		heltal
-ring			ring
-state			tillstånd
-polymorphism		polymorfism
-pointer			pekare
-reference		referens
-method			metod
-system call		systemanrop
-deadlock		baklås
-latency			latens
-spinlock		spinnlås
+integer	       		heltal			Ganzzahl
+ring			ring			Ring
+state			tillstånd		Zustand
+polymorphism		polymorfism		Polymorphismus
+pointer			pekare			Zeiger
+reference		referens		Referenz
+method			metod			Methode
+system call		systemanrop		
+deadlock		baklås			Verklemmung
+latency			latens			Latenz
+spinlock		spinnlås		Spinlock
 template		mall
-class			klass
-type			typ
-set			mängd
-subset			delmängd
-union			union
-intersection		snitt
-category		kategori
-invariant		invariant
-predicate		predikat
-relation		relation
-table			tabell
-constraint		bivillkor
-condition		villkor
-loop			slinga
-sequence		följd
-character		tecken
-string			sträng
-device			enhet
-window			fönster
-edit			redigera
-compile			kompilera
-compiler		kompilator
-assemble		assemblera
-assembler		assemblator
-assembler		assembler
-link			länka
-linker			länkare
-closure			omslutning
-symbol table		symboltabell
-argument		argument
-parameter		parameter
-type class		typklass
-abstraction		abstraktion
-conjunction		konkunktion
-disjunction		disjunktion
-negation		negation
-complement		komplement
-negate			negera
-invert			invertera
-implication		implikation
-tree			träd
-forest			skog
-link			länk
-i-node			i-nod
-bandwidth		bandbredd
-real-time		realtid
-virtual			virtuell
-segment			segment
-interrupt		avbrott
-exception		undantag
-handler			hanterare
+class			klass			Klasse
+type			typ			Typ
+set			mängd			Menge
+subset			delmängd		Teilmenge
+superset		superhet ??		Übermenge
+union			union			Vereinigung(smenge)
+intersection		snitt			Schnitt(menge)
+category		kategori		Kategorie
+invariant		invariant		Invariante
+predicate		predikat		Prädikat
+relation		relation		Relation
+table			tabell			Tabelle
+constraint		bivillkor		Nebenbedingung
+condition		villkor			Bedingung
+loop			slinga			Schleife
+sequence		följd			Sequenz
+character		tecken			Zeichen
+string			sträng			Zeichenkette
+device			enhet			Gerät
+window			fönster			Fenster
+edit			redigera		bearbeiten
+compile			kompilera		kompilieren
+compiler		kompilator		Compiler / Kompiler (veraltend)
+assemble		assemblera		assemblieren
+assembler		assemblator		Assembler
+assembler		assembler		Assembler
+link			länka			linken
+linker			länkare			Linker
+closure			omslutning		Closure / Funktionsabschluss
+symbol table		symboltabell		Symboltabelle
+argument		argument		Argument
+parameter		parameter		Parameter
+type class		typklass		Typklasse
+abstraction		abstraktion		Abstraktion
+conjunction		konkunktion		Konjunktion
+disjunction		disjunktion		Disjunktion
+negation		negation		Negation
+complement		komplement		Komplement
+negate			negera			negieren
+invert			invertera		invertieren
+implication		implikation		Implikation
+tree			träd			Baum
+forest			skog			Wald
+link			länk			Link
+i-node			i-nod			I-Knoten
+bandwidth		bandbredd		Bandbreite
+real-time		realtid			Echtzeit
+virtual			virtuell		virtuell
+segment			segment			Segment
+interrupt (request)	avbrott			Interrupt / Unterbrechungsanforderung
+interrupt handler	avbrottsrutin   	Unterbrechungsroutine
+exception		undantag		Ausnahme
+handler			hanterare		
 handle			handtag
-stack			stack
+stack			stack			Stack / Stapelspeicher/Kellerspeicher (beide veraltend)
 garbage			skräp
-allocation		allokering
+garbage collection	skräphantering		automatische Speicherbereinigung
+allocation		allokering		Allozierung
+allocate					allozieren / allokieren
 record			post
-structure		struktur
-attribute		attribut
-synthesis		syntes
-icon			ikon
-monad			monad
-functor			funktor
+structure		struktur		Struktur
+attribute		attribut		Attribut
+synthesis		syntes			Synthese
+icon			ikon			Icon
+monad			monad			Monad
+functor			funktor			Funktor
 repeat			upprepa
-recursion		rekursion
-recursive		rekursiv
-jump			hopp
-branch			gren
-address			adress
-target			mål
-control	(n)		styrning
-control	(v)		styra
-check (n)		kontroll
-check (v)		kontrollera
-proof 			bevis
-induction		induktion
-deduction		deduktion
-interval		intervall
-event			händelse
-discrete		diskret
-simulation		simulering
-simulate		simulera
-functional		funktionell
+recursion		rekursion		Rekursion
+recursive		rekursiv		rekursiv
+jump			hopp			Sprung
+branch			gren			Zweig
+branch prediction				Sprungvorhersage
+development branch				Branch / Entwicklungszweig 
+address			adress			Adresse
+target			mål			Ziel
+control	(n)		styrning		Steuerung
+control	(v)		styra			steuern
+check (n)		kontroll		Überprüfung / Kontrolle 
+check (v)		kontrollera		überprüfen / kontrollieren
+proof 			bevis			Beweis
+induction		induktion		Induktion
+deduction		deduktion		Deduktion
+interval		intervall		Intervall
+event			händelse		Ereignis
+discrete		diskret			diskret
+simulation		simulering		Simulation
+simulate		simulera		simulieren
+functional		funktionell		funktional
 sound			sund
-thread			tråd
-process			process
-multi-threaded		flertrådad
-continuation		fortsättning
-evaluation		evaluering
+thread			tråd			Thread
+process			process			Prozess
+multi-threaded		flertrådad		multi-threaded / (nebenläufig)
+continuation		fortsättning		
+evaluation		evaluering		Evaluierung
 refactor		omfaktorera
-bug			lus
-storage			lagring
-bus			buss
-kernel			kärna
-library			bibliotek
-file			fil
-directory		katalog
-database		databas
+bug			lus / Bug		Bug [bʌg] / Programmfehler
+storage			lagring			Speicher
+bus			buss			Bus
+kernel			kärna			Kern
+library			bibliotek		Bibliothek
+file			fil			Datei		
+directory		katalog			Verzeichnis
+folder			mapp			Ordner
+database		databas			Datenbank
 lazy			lat
 eager			ivrig
-static			statisk
-dynamic			dynamisk
-lexical			lexikalisk
+greedy
+static			statisk			statisch
+dynamic			dynamisk		dynamisch
+lexical			lexikalisk		lexikalisch
