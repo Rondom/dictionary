@@ -10,6 +10,7 @@ list comprehension	listomfattning
 procedure		procedur		Prozedur
 statement		sats			Anweisung
 subroutine		subrutin		Subroutine / Unterprogramm
+macro			makro
 file system		filsystem		Dateisystem
 file			fil			Datei
 breakpoint		brytpunkt		Haltepunkt
@@ -30,7 +31,7 @@ class			klass			Klasse
 type			typ			Typ
 set			mängd			Menge
 subset			delmängd		Teilmenge
-superset		superhet ??		Übermenge
+superset		övermängd		Übermenge
 union			union			Vereinigung(smenge)
 intersection		snitt			Schnitt(menge)
 category		kategori		Kategorie
@@ -54,6 +55,8 @@ assembler		assemblator		Assembler
 assembler		assembler		Assembler
 link			länka			linken
 linker			länkare			Linker
+optimise		optimera
+optimisation		optimering
 closure			omslutning		Closure / Funktionsabschluss
 symbol table		symboltabell		Symboltabelle
 argument		argument		Argument
@@ -69,6 +72,8 @@ invert			invertera		invertieren
 implication		implikation		Implikation
 tree			träd			Baum
 forest			skog			Wald
+root			rot
+leaf			löv
 link			länk			Link
 i-node			i-nod			I-Knoten
 bandwidth		bandbredd		Bandbreite
@@ -81,10 +86,13 @@ exception		undantag		Ausnahme
 handler			hanterare		
 handle			handtag
 stack			stack			Stack / Stapelspeicher/Kellerspeicher (beide veraltend)
+queue			kö
+priority		prioritet
 garbage			skräp
 garbage collection	skräphantering		automatische Speicherbereinigung
 allocation		allokering		Allozierung
-allocate					allozieren / allokieren
+allocate		allokera		allozieren / allokieren
+memory leak		minnesläcka
 record			post
 structure		struktur		Struktur
 attribute		attribut		Attribut
@@ -95,10 +103,11 @@ functor			funktor			Funktor
 repeat			upprepa
 recursion		rekursion		Rekursion
 recursive		rekursiv		rekursiv
+fixpoint		fixpunkt
 jump			hopp			Sprung
 branch			gren			Zweig
-branch prediction				Sprungvorhersage
-development branch				Branch / Entwicklungszweig 
+branch prediction	grenförutsägelse	Sprungvorhersage
+development branch	utvecklingsgren		Branch / Entwicklungszweig 
 address			adress			Adresse
 target			mål			Ziel
 control	(n)		styrning		Steuerung
@@ -108,21 +117,32 @@ check (v)		kontrollera		überprüfen / kontrollieren
 proof 			bevis			Beweis
 induction		induktion		Induktion
 deduction		deduktion		Deduktion
+inference		härledning, inferens
 interval		intervall		Intervall
 event			händelse		Ereignis
 discrete		diskret			diskret
 simulation		simulering		Simulation
 simulate		simulera		simulieren
+emulation		emulation
+emulate			emulera
 functional		funktionell		funktional
 sound			sund
+soundness		sundhet
+complete		fullständig
+completeness		fullständighet
+contradict		motsäga
+contradiction		motsägelse
 thread			tråd			Thread
-process			process			Prozess
+process	(n)		process			Prozess
+process (v)		behandla
 multi-threaded		flertrådad		multi-threaded / (nebenläufig)
 continuation		fortsättning		
 evaluation		evaluering		Evaluierung
+evaluate		evaluera
 refactor		omfaktorera
-bug			lus / Bug		Bug [bʌg] / Programmfehler
+bug			lus, bugg, programfel	Bug [bʌg] / Programmfehler
 storage			lagring			Speicher
+memory			minne
 bus			buss			Bus
 kernel			kärna			Kern
 library			bibliotek		Bibliothek
@@ -132,7 +152,73 @@ folder			mapp			Ordner
 database		databas			Datenbank
 lazy			lat
 eager			ivrig
-greedy
+greedy			girig
 static			statisk			statisch
 dynamic			dynamisk		dynamisch
 lexical			lexikalisk		lexikalisch
+access (n)		åtkomst
+access (v)		komma åt
+mutable			mutabel
+mutation		mutation
+immutable		immutabel
+assignment		tilldelning
+binding			bindning
+variable		variabel
+constant		konstant
+syntax			syntax
+state machine		tillståndsmaskin
+regular expression	reguljärt uttryck
+matrix			matris
+vector			vektor
+array			array
+list			lista
+tuple			tupel
+bit			bit
+byte			byte
+word			ord
+hash table		hashtabell
+hash function		hashfunktion
+encryption		kryptering
+encrypt			kryptera
+compression		komprimering
+compress		komprimera
+random number		slumptal
+random 			slumpmässig
+randomness		slump
+uniform			likformig
+normal distribution	normalfördelning
+trigger (v)		utlösa
+level			nivå
+edge (of signal)	flank
+icon			ikon
+menu			meny
+scroll bar		rullist
+indentation		indragning
+algorithm		algoritm
+heuristic		heuristik
+interface		gränssnitt
+arity			aritet
+transitive		transitiv
+symmetric		symmetrisk
+commutative		kommutativ
+associative		associativ
+synchronous		synkron
+asynchronous		asynkron
+protocol		protokoll
+log (n)			logg
+log (v)			logga
+compute			beräkna
+computer		dator
+hardware		hårdvara
+software		programvara, mjukvara
+precision		precision
+accuracy		noggrannhet
+error			fel
+hierarchy		hierarki
+module			modul
+signature		signatur
+declaration		deklaration
+declare			deklarera
+prototype		prototyp
+response time		svarstid
+high score		poängrekord
