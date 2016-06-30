@@ -61,6 +61,7 @@ closure			omslutning		Closure / Funktionsabschluss
 symbol table		symboltabell		Symboltabelle
 argument		argument		Argument
 parameter		parameter		Parameter
+default value		skönsvärde
 type class		typklass		Typklasse
 abstraction		abstraktion		Abstraktion
 conjunction		konkunktion		Konjunktion
@@ -70,10 +71,16 @@ complement		komplement		Komplement
 negate			negera			negieren
 invert			invertera		invertieren
 implication		implikation		Implikation
+antecedent		antecedent
+consequent		konsekvent
+proposition		påstående, proposition
 tree			träd			Baum
 forest			skog			Wald
 root			rot
 leaf			löv
+child			barn
+parent			förälder
+sibling			syskon
 link			länk			Link
 i-node			i-nod			I-Knoten
 bandwidth		bandbredd		Bandbreite
@@ -137,6 +144,8 @@ process	(n)		process			Prozess
 process (v)		behandla
 multi-threaded		flertrådad		multi-threaded / (nebenläufig)
 continuation		fortsättning		
+tail call		svansanrop
+tail recursion		svansrekursion
 evaluation		evaluering		Evaluierung
 evaluate		evaluera
 refactor		omfaktorera
