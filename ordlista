@@ -55,13 +55,13 @@ assembler		assemblator		Assembler
 assembler		assembler		Assembler
 link			länka			linken
 linker			länkare			Linker
-optimise		optimera
-optimisation		optimering
+optimise		optimera		optimieren
+optimisation		optimering		Optimierung
 closure			omslutning		Closure / Funktionsabschluss
 symbol table		symboltabell		Symboltabelle
 argument		argument		Argument
 parameter		parameter		Parameter
-default value		skönsvärde
+default value		skönsvärde		Standardwert
 type class		typklass		Typklasse
 abstraction		abstraktion		Abstraktion
 conjunction		konkunktion		Konjunktion
@@ -76,11 +76,11 @@ consequent		konsekvent
 proposition		påstående, proposition
 tree			träd			Baum
 forest			skog			Wald
-root			rot
-leaf			löv
-child			barn
-parent			förälder
-sibling			syskon
+root			rot			Wurzel
+leaf			löv			Blatt
+child			barn			Kind
+parent			förälder		Eltern (pl)
+sibling			syskon			Geschwister
 link			länk			Link
 i-node			i-nod			I-Knoten
 bandwidth		bandbredd		Bandbreite
@@ -93,8 +93,8 @@ exception		undantag		Ausnahme
 handler			hanterare		
 handle			handtag
 stack			stack			Stack / Stapelspeicher/Kellerspeicher (beide veraltend)
-queue			kö
-priority		prioritet
+queue			kö			Queue / Schlange
+priority		prioritet		Priorität
 garbage			skräp
 garbage collection	skräphantering		automatische Speicherbereinigung
 allocation		allokering		Allozierung
@@ -110,7 +110,7 @@ functor			funktor			Funktor
 repeat			upprepa
 recursion		rekursion		Rekursion
 recursive		rekursiv		rekursiv
-fixpoint		fixpunkt
+fixpoint		fixpunkt		Fixpunkt
 jump			hopp			Sprung
 branch			gren			Zweig
 branch prediction	grenförutsägelse	Sprungvorhersage
@@ -124,7 +124,7 @@ check (v)		kontrollera		überprüfen / kontrollieren
 proof 			bevis			Beweis
 induction		induktion		Induktion
 deduction		deduktion		Deduktion
-inference		härledning, inferens
+inference		härledning, inferens	In
 interval		intervall		Intervall
 event			händelse		Ereignis
 discrete		diskret			diskret
@@ -135,99 +135,99 @@ emulate			emulera
 functional		funktionell		funktional
 sound			sund
 soundness		sundhet
-complete		fullständig
-completeness		fullständighet
-contradict		motsäga
-contradiction		motsägelse
+complete		fullständig             vollständig
+completeness		fullständighet		Vollständigheit
+contradict		motsäga                 widersprechen
+contradiction		motsägelse		Widerspruch
 thread			tråd			Thread
 process	(n)		process			Prozess
-process (v)		behandla
+process (v)		behandla		verarbeiten
 multi-threaded		flertrådad		multi-threaded / (nebenläufig)
 continuation		fortsättning		
 tail call		svansanrop
 tail recursion		svansrekursion
 evaluation		evaluering		Evaluierung
-evaluate		evaluera
-refactor		omfaktorera
+evaluate		evaluera		evaluieren
+refactor		omfaktorera		"refactorn"
 bug			lus, bugg, programfel	Bug [bʌg] / Programmfehler
 storage			lagring			Speicher
-memory			minne
+memory			minne			Speicher (Arbeitsspeicher = RAM)
 bus			buss			Bus
 kernel			kärna			Kern
 library			bibliotek		Bibliothek
-file			fil			Datei		
+file			fil			Datei
 directory		katalog			Verzeichnis
 folder			mapp			Ordner
 database		databas			Datenbank
-lazy			lat
-eager			ivrig
-greedy			girig
+lazy			lat			lazy
+eager			ivrig			eager ?
+greedy			girig			greedy
 static			statisk			statisch
 dynamic			dynamisk		dynamisch
 lexical			lexikalisk		lexikalisch
-access (n)		åtkomst
-access (v)		komma åt
+access (n)		åtkomst			Zugriff
+access (v)		komma åt		zugreifen
 mutable			mutabel
 mutation		mutation
 immutable		immutabel
-assignment		tilldelning
+assignment		tilldelning		Zuweisung
 binding			bindning
-variable		variabel
-constant		konstant
-syntax			syntax
+variable		variabel		variabel
+constant		konstant		konstant
+syntax			syntax			Syntax
 state machine		tillståndsmaskin
-regular expression	reguljärt uttryck
-matrix			matris
-vector			vektor
-array			array
-list			lista
-tuple			tupel
-bit			bit
-byte			byte
-word			ord
-hash table		hashtabell
-hash function		hashfunktion
-encryption		kryptering
-encrypt			kryptera
-compression		komprimering
-compress		komprimera
-random number		slumptal
-random 			slumpmässig
-randomness		slump
-uniform			likformig
-normal distribution	normalfördelning
-trigger (v)		utlösa
-level			nivå
-edge (of signal)	flank
-icon			ikon
-menu			meny
-scroll bar		rullist
-indentation		indragning
-algorithm		algoritm
-heuristic		heuristik
-interface		gränssnitt
-arity			aritet
-transitive		transitiv
-symmetric		symmetrisk
-commutative		kommutativ
-associative		associativ
-synchronous		synkron
-asynchronous		asynkron
-protocol		protokoll
-log (n)			logg
-log (v)			logga
-compute			beräkna
-computer		dator
-hardware		hårdvara
-software		programvara, mjukvara
-precision		precision
+regular expression	reguljärt uttryck	Regulärer Ausdruck
+matrix			matris			Matrix
+vector			vektor			Vektor
+array			array			Array
+list			lista			Liste
+tuple			tupel			Tupel
+bit			bit			Bit
+byte			byte			Byte
+word			ord			Wort
+hash table		hashtabell		Hashtabelle
+hash function		hashfunktion		Hashfunktion
+encryption		kryptering		Verschlüsselung
+encrypt			kryptera		verschlüsseln
+compression		komprimering		Kompression
+compress		komprimera		komprimieren
+random number		slumptal		Zufallszahl
+random 			slumpmässig		zufällig
+randomness		slump			Zufall
+uniform			likformig		gleichförmig
+normal distribution	normalfördelning	Normalverteilujng
+trigger (v)		utlösa			auslösen
+level			nivå			Niveau
+edge (of signal)	flank			Flanke
+icon			ikon			Icon
+menu			meny			Menü
+scroll bar		rullist			Scrollbalken / "Bildlaufleiste"
+indentation		indragning		Einrückung
+algorithm		algoritm		Algorithmus
+heuristic		heuristik		Heuristik
+interface		gränssnitt		Oberfläche
+arity			aritet			Arität / Stelligkeit
+transitive		transitiv		transitiv
+symmetric		symmetrisk		symmetrisch
+commutative		kommutativ		kommutativ
+associative		associativ		assoziativ
+synchronous		synkron			synchron
+asynchronous		asynkron		asynchron
+protocol		protokoll		Protokoll
+log (n)			logg			Log
+log (v)			logga			loggen / protokollieren
+compute			beräkna			berechnen
+computer		dator			Computer
+hardware		hårdvara		Hardware
+software		programvara, mjukvara	Software
+precision		precision		Genauigkeit
 accuracy		noggrannhet
-error			fel
-hierarchy		hierarki
-module			modul
-signature		signatur
-declaration		deklaration
-declare			deklarera
-prototype		prototyp
-response time		svarstid
-high score		poängrekord
+error			fel			Fehler
+hierarchy		hierarki		Hierarchie
+module			modul			Modul
+signature		signatur		Signature
+declaration		deklaration		Deklaration
+declare			deklarera		deklarieren
+prototype		prototyp		Prototyp
+response time		svarstid		Antwortzeit
+high score		poängrekord		Highscore
